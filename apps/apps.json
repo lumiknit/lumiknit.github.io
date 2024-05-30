@@ -5,6 +5,11 @@
 		"description": "Random Chooser"
 	},
 	{
+		"name": "Yacht Dice Solitaire",
+		"url": "./yacht-dice",
+		"description": "Yacht Dice & Yahtzee for You!"
+	},
+	{
 		"name": "QR",
 		"url": "./qr",
 		"description": "Qr Code Generator and Scanner"
