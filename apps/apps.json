@@ -10,6 +10,11 @@
 		"description": "Yacht Dice & Yahtzee for You!"
 	},
 	{
+		"name": "Dubu Tl",
+		"url": "./dubu-tl",
+		"description": "Yet another pixelart painter!"
+	},
+	{
 		"name": "QR",
 		"url": "./qr",
 		"description": "Qr Code Generator and Scanner"
