@@ -15,6 +15,11 @@
 		"description": "Yet another pixelart painter!"
 	},
 	{
+		"name": "That's not my DATA!",
+		"url": "./tnmd",
+		"description": "JSON-like data editor"
+	},
+	{
 		"name": "QR",
 		"url": "./qr",
 		"description": "Qr Code Generator and Scanner"
