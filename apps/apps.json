@@ -30,6 +30,11 @@
 		"description": "Keep URLs in URL"
 	},
 	{
+		"name": "Home",
+		"url": "./home",
+		"description": "Home"
+	},
+	{
 		"name": "Gyro Hourglass",
 		"url": "./hourglass",
 		"description": "Hourglass with accelerometer"
