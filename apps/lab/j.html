@@ -10,6 +10,11 @@
     <meta name="msapplication-TileColor" content="#161616">
     <meta name="theme-color" content="#161616">
     <title> manifest test</title>
+    <script>
+const urlParams = new URLSearchParams(window.location.search);
+const j = urlParams.get('j');
+if(j) window.location.href = `https://${j}/`;
+    </script>
   </head>
   <body> test </body>
 </html>
