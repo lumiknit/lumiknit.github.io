@@ -1,0 +1,70 @@
+<!doctype html>
+<!-- Jump to specific page -->
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="theme-color" content="#000000">
+	<link rel="manifest" id="man-ph">
+	<style>
+		body {
+			background: black;
+			color: white;
+		}
+	</style>
+	<title> Jump To </title>
+	<script>
+		const el = id => document.getElementById(id);
+		const urlParams = new URLSearchParams(window.location.search);
+
+		const ll = encodeURI(urlParams.get('link'));
+		const manifest = {
+			name: urlParams.get('name'),
+			short_name: urlParams.get('name'),
+			start_url: "https://lumiknit.github.io/apps/pwa/j.html?j=" + ll,
+			background_color: '#000000',
+			theme_color: '#000000',
+			icons: [{
+				type: 'image/png',
+				src: 'icon.png',
+				sizes: '192x192',
+			}],
+		};
+
+		window.addEventListener('load', (event) => {
+			const sm = JSON.stringify(manifest);
+			const blob = new Blob([sm], {
+				type: 'application/json'
+			});
+			const url = URL.createObjectURL(blob);
+			el('man-ph').setAttribute('href', url);
+
+			const link = document.createElement('link');
+			link.rel = 'manifest';
+			link.setAttribute('href', 'data:application/json;charset=8' + sm);
+			el('man').innerText = sm;
+
+			el('name').value = manifest.name;
+			el('link').value = ll;
+			el('icon_mime').value = manifest.icons[0].type;
+			el('icon_size').value = manifest.icons[0].sizes;
+			el('icon_link').value = manifest.icons[0].src;
+		});
+	</script>
+</head>
+
+<body>
+	<p> Manifest: <pre id="man" style="white-space: pre-wrap;"></pre></p>
+
+	<form method="get">
+		Name: <input type="text" id="name" name="name"> <br>
+		Link: <input type="text" id="link" name="link"> <br>
+		Icon Mime: <input type="text" id="icon_mime" name="icon_mime"> <br>
+		Icon Size: <input type="text" id="icon_size" name="icon_size"> <br>
+		Icon Link: <input type="text" id="icon_link" name="icon_link"> <br>
+		<button type="submit">Gen</button>
+		</form>
+</body>
+
+</html>
