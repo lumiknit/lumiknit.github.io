@@ -4,11 +4,11 @@
 
 <head>
 	<meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
-    <meta name="msapplication-TileColor" content="#000000">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+	<meta name="msapplication-TileColor" content="#000000">
 	<meta name="theme-color" content="#000000">
 	<link rel="manifest" id="man-ph" href="./site.webmanifest">
 	<style>
@@ -31,11 +31,11 @@
 			background_color: '#000000',
 			theme_color: '#000000',
 			icons: [
-			{
-            "src": "/android-chrome-192x192.png",
-            "sizes": "192x192",
-            "type": "image/png"
-        },
+				{
+					"src": "/android-chrome-192x192.png",
+					"sizes": "192x192",
+					"type": "image/png"
+				},
 			],
 		};
 
@@ -59,7 +59,7 @@
 			const link = document.createElement('link');
 			link.rel = 'manifest';
 			link.setAttribute('href', 'data:application/json;charset=8' + sm);
-			el('man').innerText = sm;
+			el('man').innerText = JSON.stringify(manifest, null, 2);
 
 			el('name').value = manifest.name;
 			el('link').value = ll;
@@ -71,7 +71,9 @@
 </head>
 
 <body>
-	<p> Manifest: <pre id="man" style="white-space: pre-wrap;"></pre></p>
+	<p> Manifest:
+	<pre id="man" style="white-space: pre-wrap;"></pre>
+	</p>
 
 	<form method="get">
 		Name: <input type="text" id="name" name="name"> <br>
@@ -80,7 +82,7 @@
 		Icon Size: <input type="text" id="icon_size" name="icon_size"> <br>
 		Icon Link: <input type="text" id="icon_link" name="icon_link"> <br>
 		<button type="submit">Gen</button>
-		</form>
+	</form>
 </body>
 
 </html>
