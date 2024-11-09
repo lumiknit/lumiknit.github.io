@@ -26,9 +26,9 @@
 			background_color: '#000000',
 			theme_color: '#000000',
 			icons: [{
-				type: 'image/png',
-				src: 'icon.png',
-				sizes: '192x192',
+				type: urlParams.get('icon_mime'),
+				src: urlParams.get('icon_link'),
+				sizes: urlParams.get('icon_size'),
 			}],
 		};
 
