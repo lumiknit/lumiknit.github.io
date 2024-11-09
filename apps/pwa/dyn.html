@@ -27,7 +27,7 @@
 			name: urlParams.get('name'),
 			short_name: urlParams.get('name'),
 			start_url: "https://lumiknit.github.io/apps/pwa/j.html?j=" + ll,
-			display: "fullscreen",
+			display: "standalone",
 			background_color: '#000000',
 			theme_color: '#000000',
 			icons: [
@@ -41,11 +41,11 @@
 
 		const il = urlParams.get('icon_link');
 		if (il) {
-			manifest.icons.push({
+			manifest.icons = [{
 				src: il,
 				type: urlParams.get('icon_mime'),
 				sizes: urlParams.get('icon_size'),
-			});
+			}];
 		}
 
 		window.addEventListener('load', (event) => {
