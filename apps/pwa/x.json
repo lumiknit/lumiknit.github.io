@@ -1,0 +1,15 @@
+{
+    "name": "X",
+    "short_name": "X",
+    "start_url": "https://lumiknit.github.io/apps/lab/j.html?j=bsky.app",
+    "icons": [
+        {
+            "src": "https://bsky.app/static/apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png"
+          }
+    ],
+    "theme_color": "#000000",
+    "background_color": "#000000",
+    "display": "fullscreen"
+}
