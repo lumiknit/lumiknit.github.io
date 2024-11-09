@@ -27,12 +27,17 @@
 			start_url: "https://lumiknit.github.io/apps/pwa/j.html?j=" + ll,
 			background_color: '#000000',
 			theme_color: '#000000',
-			icons: [{
-				type: urlParams.get('icon_mime'),
-				src: urlParams.get('icon_link'),
-				sizes: urlParams.get('icon_size'),
-			}],
+			icons: [],
 		};
+
+		const il = urlParams.get('icon_link');
+		if (il) {
+			manifest.icons.push({
+				src: il,
+				type: urlParams.get('icon_mime'),
+				sizes: urlParams.get('icon_size'),
+			});
+		}
 
 		window.addEventListener('load', (event) => {
 			const sm = JSON.stringify(manifest);
