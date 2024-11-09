@@ -1,0 +1,25 @@
+<!doctype html>
+<!-- Jump to specific page -->
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="theme-color" content="#000000">
+	<style>
+		body {
+			background: black;
+			color: white;
+		}
+	</style>
+	<title> Jump To </title>
+	<script>
+		const urlParams = new URLSearchParams(window.location.search);
+		const j = urlParams.get('j');
+		if (j) window.location.href = `https://${j}`;
+	</script>
+</head>
+
+<body> Use j as query param, without params </body>
+
+</html>
