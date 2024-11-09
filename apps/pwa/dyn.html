@@ -22,11 +22,13 @@
 		const el = id => document.getElementById(id);
 		const urlParams = new URLSearchParams(window.location.search);
 
+		const prefix = "https://lumiknit.github.io/apps/pwa/j.html?j=";
+
 		const ll = encodeURI(urlParams.get('link'));
-		const manifest = {
+		let manifest = {
 			name: urlParams.get('name'),
 			short_name: urlParams.get('name'),
-			start_url: "https://lumiknit.github.io/apps/pwa/j.html?j=" + ll,
+			start_url: prefix + ll,
 			display: "standalone",
 			background_color: '#000000',
 			theme_color: '#000000',
@@ -39,6 +41,18 @@
 			],
 		};
 
+		const mm = urlParams.get('man');
+		if (mm) {
+			try {
+				manifest = {
+					...manifest,
+					...JSON.parse(mm),
+				}
+			} catch (e) {
+				console.error(e);
+			}
+		}
+
 		const il = urlParams.get('icon_link');
 		if (il) {
 			manifest.icons = [{
@@ -47,6 +61,14 @@
 				sizes: urlParams.get('icon_size'),
 			}];
 		}
+
+		const fill = (m) => {
+			el('name').value = m.name;
+			el('link').value = m.start_url.slice(prefix.length);
+			el('icon_mime').value = manifest.icons[0].type;
+			el('icon_size').value = manifest.icons[0].sizes;
+			el('icon_link').value = manifest.icons[0].src;
+		};
 
 		window.addEventListener('load', (event) => {
 			const sm = JSON.stringify(manifest);
@@ -59,21 +81,17 @@
 			const link = document.createElement('link');
 			link.rel = 'manifest';
 			link.setAttribute('href', 'data:application/json;charset=8' + sm);
-			el('man').innerText = JSON.stringify(manifest, null, 2);
-
-			el('name').value = manifest.name;
-			el('link').value = ll;
-			el('icon_mime').value = manifest.icons[0].type;
-			el('icon_size').value = manifest.icons[0].sizes;
-			el('icon_link').value = manifest.icons[0].src;
+			el('man').value = JSON.stringify(manifest, null, 2);
 		});
 	</script>
 </head>
 
 <body>
-	<p> Manifest:
-	<pre id="man" style="white-space: pre-wrap;"></pre>
-	</p>
+	<form method="get">
+		<textarea id="man" name="man"></textarea>
+		<br>
+		<button type="submit">Gen From JSON</button>
+	</form>
 
 	<form method="get">
 		Name: <input type="text" id="name" name="name"> <br>
@@ -81,7 +99,7 @@
 		Icon Mime: <input type="text" id="icon_mime" name="icon_mime"> <br>
 		Icon Size: <input type="text" id="icon_size" name="icon_size"> <br>
 		Icon Link: <input type="text" id="icon_link" name="icon_link"> <br>
-		<button type="submit">Gen</button>
+		<button type="submit">Gen From Items</button>
 	</form>
 </body>
 
