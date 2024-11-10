@@ -53,5 +53,10 @@
 		"name": "kitl",
 		"url": "./kitl",
 		"description": "(Under Construction) Graphical programming tool..?"
+	},
+	{
+		"name": "pwa",
+		"url": "./pwa",
+		"description": "Custom  pwa edit"
 	}
 ]
