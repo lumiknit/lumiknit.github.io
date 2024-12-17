@@ -25,6 +25,11 @@
 		"description": "Qr Code Generator and Scanner"
 	},
 	{
+		"name": "Chopsticks",
+		"url": "./chopsticks",
+		"description": "Chopsticks!"
+	},
+	{
 		"name": "Minton Match",
 		"url": "./minton-match",
 		"description": "Arrange badminton double matches timetable!"
