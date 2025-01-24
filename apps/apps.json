@@ -5,6 +5,11 @@
 		"description": "Random Chooser"
 	},
 	{
+		"name": "ript",
+		"url": "./ript",
+		"description": "JS Notebook"
+	},
+	{
 		"name": "Yacht Dice Solitaire",
 		"url": "./yacht-dice",
 		"description": "Yacht Dice & Yahtzee for You!"
