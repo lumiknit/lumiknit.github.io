@@ -20,6 +20,11 @@
 		"description": "Yacht Dice & Yahtzee for You!"
 	},
 	{
+		"name": "Infinite MineSweeper Again",
+		"url": "./inf-minesweeper-again",
+		"description": "Infinite mine sweeper"
+	},
+	{
 		"name": "Dubu Tl",
 		"url": "./dubu-tl",
 		"description": "Yet another pixelart painter!"
