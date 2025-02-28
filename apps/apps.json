@@ -5,6 +5,11 @@
 		"description": "Random Chooser"
 	},
 	{
+		"name": "Unhurry",
+		"url": "./unhurry",
+		"description": "Simply with LLM"
+	},
+	{
 		"name": "ript",
 		"url": "./ript",
 		"description": "JS Notebook"
