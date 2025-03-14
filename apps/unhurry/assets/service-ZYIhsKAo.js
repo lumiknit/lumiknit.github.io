@@ -1,0 +1,1 @@
+async function n(t,r={},e){return window.__TAURI_INTERNALS__.invoke(t,r,e)}class c{constructor(){}async greet(r){return n("greet",{name:r})}async fetch(r,e,s,o){return await n("fetch_http",{method:r,url:e,headers:s,body:o})}}export{c as TauriService};
