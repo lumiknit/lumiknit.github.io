@@ -15,6 +15,11 @@
 		"description": "D20 for real world"
 	},
 	{
+		"name": "Pad",
+		"url": "./pad",
+		"description": "Gist-like simple code test zone"
+	},
+	{
 		"name": "Yacht Dice Solitaire",
 		"url": "./yacht-dice",
 		"description": "Yacht Dice & Yahtzee for You!"
