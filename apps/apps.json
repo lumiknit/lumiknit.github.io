@@ -20,6 +20,11 @@
 		"description": "Gist-like simple code test zone"
 	},
 	{
+		"name": "Year Calendar",
+		"url": "./year-calendar",
+		"description": "Year calendar wallpaper"
+	},
+	{
 		"name": "Yacht Dice Solitaire",
 		"url": "./yacht-dice",
 		"description": "Yacht Dice & Yahtzee for You!"
