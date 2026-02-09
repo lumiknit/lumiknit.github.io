@@ -20,6 +20,11 @@
 		"description": "Gist-like simple code test zone"
 	},
 	{
+		"name": "Scan",
+		"url": "./scan",
+		"description": "Scan your paper"
+	},
+	{
 		"name": "Year Calendar",
 		"url": "./year-calendar",
 		"description": "Year calendar wallpaper"
