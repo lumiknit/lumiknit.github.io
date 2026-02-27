@@ -10,6 +10,11 @@
 		"description": "Simply with LLM"
 	},
 	{
+		"name": "Hrm",
+		"url": "./hrm",
+		"description": "Excel for developer"
+	},
+	{
 		"name": "Roll d20",
 		"url": "./roll-d20",
 		"description": "D20 for real world"
