@@ -1,0 +1,1 @@
+body>div{flex-direction:column;align-items:center;gap:1rem;display:flex}@keyframes rotate{0%{transform:rotate(0)}to{transform:rotate(360deg)}}svg#logo{width:240px;max-width:50dvw;height:240px;margin:40px auto;animation:300s ease-in-out infinite rotate}

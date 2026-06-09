@@ -1,0 +1,137 @@
+[
+  {
+    "name": "Suntaek",
+    "url": "./suntaek",
+    "description": "Random choice quickly."
+  },
+  {
+    "name": "Scan",
+    "url": "./scan",
+    "description": "Scan paper with browser"
+  },
+  {
+    "name": "Baekji",
+    "url": "./baekji",
+    "description": "Minimalist's writing app"
+  },
+  {
+    "name": "Huji",
+    "url": "./huji",
+    "description": "Minimalist's markdown app"
+  },
+  {
+    "name": "Bread",
+    "url": "./bread",
+    "description": "Bread recipe"
+  },
+  {
+    "name": "Wordle Teacher",
+    "url": "./wordle-teacher",
+    "description": "Helps Wordle puzzles"
+  },
+  {
+    "name": "Yacht-dice",
+    "url": "./yacht-dice",
+    "description": "Yacht Dice Game"
+  },
+  {
+    "name": "Roll-d20",
+    "url": "./roll-d20",
+    "description": "Test your ability with d20"
+  },
+  {
+    "name": "Qr",
+    "url": "./qr",
+    "description": "QR Code generator and scanner"
+  },
+  {
+    "name": "Rand Audio",
+    "url": "./rand-audio",
+    "description": "Random generated music"
+  },
+  {
+    "name": "Regex Machine",
+    "url": "./reg-machine",
+    "description": "Similar to tag system, but regex"
+  },
+  {
+    "name": "Home",
+    "url": "./home",
+    "description": "Maybe replace your home page"
+  },
+  {
+    "name": "Chopsticks",
+    "url": "./chopsticks",
+    "description": "Chipsticks game simulator"
+  },
+  {
+    "name": "Dubu-tl",
+    "url": "./dubu-tl",
+    "description": "Pixel art editor"
+  },
+  {
+    "name": "Urls",
+    "url": "./urls",
+    "description": "urls"
+  },
+  {
+    "name": "Inf. MineSweeper",
+    "url": "./inf-minesweeper-again",
+    "description": "Infinite Minesweeper"
+  },
+  {
+    "name": "Unhurry",
+    "url": "./unhurry",
+    "description": "unhurry"
+  },
+  {
+    "name": "Pad",
+    "url": "./pad",
+    "description": "pad"
+  },
+  {
+    "name": "Minton-match",
+    "url": "./minton-match",
+    "description": "minton-match"
+  },
+  {
+    "name": "Ego-pen",
+    "url": "./ego-pen",
+    "description": "ego-pen"
+  },
+  {
+    "name": "Hourglass",
+    "url": "./hourglass",
+    "description": "hourglass simulator"
+  },
+  {
+    "name": "Hrm",
+    "url": "./hrm",
+    "description": "hrm"
+  },
+  {
+    "name": "Year-calendar",
+    "url": "./year-calendar",
+    "description": "Calendar wallpaper generator for a year"
+  },
+  {
+    "name": "Kitl",
+    "url": "./kitl",
+    "description": "kitl"
+  },
+  {
+    "name": "Lab",
+    "url": "./lab",
+    "description": "lab"
+  },
+  {
+    "name": "Pwa",
+    "url": "./pwa",
+    "description": "pwa helper"
+  },
+  {
+    "name": "Sj",
+    "url": "./sj",
+    "description": "sj"
+  }
+]

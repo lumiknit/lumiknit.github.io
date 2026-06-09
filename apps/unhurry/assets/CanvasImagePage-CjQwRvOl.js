@@ -1,0 +1,1 @@
+import{t}from"./index-CF6Yk-Rb.js";import"./mermaid-BOfcbsIe.js";import"./hljs-nSGkUMep.js";import"./marked-DPzEbV2M.js";var a=t("<div class=container><h1> askld");const p=()=>a();export{p as default};

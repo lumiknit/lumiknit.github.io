@@ -1,0 +1,1 @@
+button.delete{background-color:#8888;border-radius:999rem;width:1.5rem;height:1.5rem}.delete:before,.delete:after{content:"";background-color:#fff;width:2px;height:12px;position:absolute}.delete:before{transform:rotate(-45deg)}.delete:after{transform:rotate(45deg)}

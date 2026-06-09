@@ -1,0 +1,1 @@
+var e={title:`Chord synth`,brand:`Chord Synth`,nav_apps:`Apps`,microtonal:`Microtonal Mode`,instrument:`Instrument`,otamaton:`Otamaton`,bass:`Bass`,"electric-bass":`Electric Bass`,octave:`Octave`,root_note:`Root Note`,chord_select:`Chord Selection`};export{e as default};
