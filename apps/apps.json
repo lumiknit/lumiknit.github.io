@@ -40,6 +40,11 @@
     "description": "Test your ability with d20"
   },
   {
+    "name": "Timer",
+    "url": "./timer",
+    "description": "Annoying timer"
+  },
+  {
     "name": "Qr",
     "url": "./qr",
     "description": "QR Code generator and scanner"
