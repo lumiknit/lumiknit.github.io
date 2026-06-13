@@ -1,0 +1,15 @@
+@font-face {
+	font-family: "GyeonggiCheonnyeonBatang";
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(./Batang_Regular.woff) format("woff");
+}
+
+@font-face {
+	font-family: "GyeonggiCheonnyeonBatang";
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url(./Batang_Bold.woff) format("woff");
+}
