@@ -1,15 +1,7 @@
 @font-face {
 	font-family: "RIDIBatang";
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 200 900;
 	font-display: swap;
-	src: url(./RIDIBatang.woff2) format("woff2");
-}
-
-@font-face {
-	font-family: "RIDIBatang";
-	font-style: normal;
-	font-weight: 700;
-	font-display: swap;
-	src: url(./RIDIBatang_bold.woff2) format("woff2");
+	src: url(./RIDIBatang-VF.woff2) format("woff2");
 }
