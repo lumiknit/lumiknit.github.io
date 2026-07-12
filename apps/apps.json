@@ -10,11 +10,6 @@
     "description": "Scan paper with browser"
   },
   {
-    "name": "Baekji",
-    "url": "./baekji",
-    "description": "Minimalist's writing app"
-  },
-  {
     "name": "Huji",
     "url": "./huji",
     "description": "Minimalist's markdown app"
@@ -133,6 +128,11 @@
     "name": "Pwa",
     "url": "./pwa",
     "description": "pwa helper"
+  },
+  {
+    "name": "Baekji",
+    "url": "./baekji",
+    "description": "(Deprecated) Minimalist's writing app"
   },
   {
     "name": "Sj",
