@@ -15,6 +15,11 @@
     "description": "Minimalist's markdown app"
   },
   {
+    "name": "1q",
+    "url": "./1q",
+    "description": "1q (extended jq) playground"
+  },
+  {
     "name": "Bread",
     "url": "./bread",
     "description": "Bread recipe"
