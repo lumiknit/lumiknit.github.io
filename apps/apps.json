@@ -5,9 +5,9 @@
     "description": "Random choice quickly."
   },
   {
-    "name": "Scan",
-    "url": "./scan",
-    "description": "Scan paper with browser"
+    "name": "1q",
+    "url": "./1q",
+    "description": "1q (extended jq) playground"
   },
   {
     "name": "Huji",
@@ -15,9 +15,9 @@
     "description": "Minimalist's markdown app"
   },
   {
-    "name": "1q",
-    "url": "./1q",
-    "description": "1q (extended jq) playground"
+    "name": "Tune",
+    "url": "./tune",
+    "description": "Check your voice pitch"
   },
   {
     "name": "Bread",
@@ -33,6 +33,16 @@
     "name": "Yacht-dice",
     "url": "./yacht-dice",
     "description": "Yacht Dice Game"
+  },
+  {
+    "name": "Show",
+    "url": "./show-edit",
+    "description": "Share your markdown with others"
+  },
+  {
+    "name": "Scan",
+    "url": "./scan",
+    "description": "Scan paper with browser"
   },
   {
     "name": "Roll-d20",
