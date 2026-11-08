@@ -25,6 +25,11 @@
     "description": "Bread recipe"
   },
   {
+    "name": "JS Tools",
+    "url": "./js-tools",
+    "description": "JS Tools"
+  },
+  {
     "name": "Wordle Teacher",
     "url": "./wordle-teacher",
     "description": "Helps Wordle puzzles"

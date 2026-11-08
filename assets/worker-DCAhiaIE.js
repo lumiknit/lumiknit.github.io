@@ -1,0 +1,3 @@
+(function(){self.addEventListener(`message`,async e=>{let t=[],n=e=>{if(typeof e==`string`)return e;try{return JSON.stringify(e,null,2)??String(e)}catch{return String(e)}},r=Object.fromEntries([`log`,`info`,`warn`,`error`,`debug`].map(e=>[e,(...e)=>t.push(e.map(n).join(` `))]));try{let i=Object.getPrototypeOf(async function(){}).constructor,a=await new i(`console`,`"use strict";\n${e.data}`)(r);a!==void 0&&t.push(`→ ${n(a)}`),self.postMessage({output:t.join(`
+`)||`(no output)`})}catch(e){self.postMessage({output:[...t,e instanceof Error?e.stack||e.message:String(e)].join(`
+`)})}})})();
